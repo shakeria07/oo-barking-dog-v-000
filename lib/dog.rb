@@ -3,6 +3,13 @@ class Dog
     puts "Woof!"
   end
 end
+def initialize(name)
+    @name = name
+  end
+ 
+  def name
+    @name
+  end
+end
 
-
-fido = Dog.new("fido")
+fido = Dog.new
