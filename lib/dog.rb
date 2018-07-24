@@ -6,4 +6,5 @@ end
 
 
 fido = Dog.new
-fido.bark# Your code goes here!
+fido.name
+fido.bark
