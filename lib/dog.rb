@@ -18,10 +18,5 @@ class Dog
         @name = name
       end
 
-      def barking
-        @barking
-      end
-  end
-
 fido = Dog.new
 fido.bark
