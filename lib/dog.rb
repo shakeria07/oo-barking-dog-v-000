@@ -1,8 +1,5 @@
 class Dog
-  initialize
-  bark
-end
-
+  
   def bark
     puts "Woof!"
   end
