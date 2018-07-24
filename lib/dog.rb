@@ -4,4 +4,6 @@ class Dog
   end
 end
 
-fido = Dog.new# Your code goes here!
+
+fido = Dog.new
+fido.bark# Your code goes here!
