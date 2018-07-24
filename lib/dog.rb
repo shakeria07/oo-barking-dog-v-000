@@ -3,5 +3,5 @@ class Dog
     puts "Woof!"
   end
 end
- 
+
 fido = Dog.new# Your code goes here!
