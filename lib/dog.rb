@@ -1,4 +1,6 @@
 class Dog
+  attr_accessor :name
+  
   def initialize
     bark
   end
@@ -6,17 +8,8 @@ class Dog
   def bark
     puts "Woof!"
   end
-
-  def name=(name)
-      @name = name
-    end
-
-    def name
-      @name
-    end
-    def name=(name)
-        @name = name
-      end
+end  
+  
 
 fido = Dog.new
 fido.bark
