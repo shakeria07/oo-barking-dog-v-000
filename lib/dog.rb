@@ -3,13 +3,11 @@ class Dog
     puts "Woof!"
   end
 
-def initialize(name)
-    @name = name
+  def breed=(breed)
+      @breed = breed
+    end
+   
+    def breed
+      @breed
+    end
   end
-
-  def name
-    @name
-  end
-end
-
-fido = Dog.new
