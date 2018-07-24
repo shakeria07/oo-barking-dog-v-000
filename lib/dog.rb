@@ -1,4 +1,7 @@
 class Dog
+  def initialize
+    bark
+  end
 
   def bark
     puts "Woof!"
@@ -11,6 +14,13 @@ class Dog
     def name
       @name
     end
+    def name=(name)
+        @name = name
+      end
+
+      def barking
+        @barking
+      end
   end
 
 fido = Dog.new
